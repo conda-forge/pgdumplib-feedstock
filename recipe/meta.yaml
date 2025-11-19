@@ -1,13 +1,13 @@
 {% set name = "pgdumplib" %}
-{% set version = "3.1.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pgdumplib-{{ version }}.tar.gz
-  sha256: c8a6a9158296fe06e5053c5dd65d16e734821261dc58c1573c5d4c0c1a594db4
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pgdumplib-{{ version }}.tar.gz
+  sha256: b367290c9976e6c868a6b08054ca46fbf02c9764166b522c98a31ec387dfc54e
 
 build:
   noarch: python
